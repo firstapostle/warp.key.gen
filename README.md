@@ -7,5 +7,3 @@ My DS: lifemiles#1960
 
 
 pip install httpx
-pip install random
-pip install os
