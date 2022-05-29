@@ -580,9 +580,9 @@ keys = (
     "0M3oFb91-G0d4l63v-tl02k59s",
     "pcm04u62-0h127nbg-Z96wl1J2",
     )
-key = random.choice(keys)
 
 for x in range(0, x):
+    key = random.choice(keys)
     with httpx.Client(base_url=base_url, headers=headers, timeout=10.0) as client:
         r = client.post("/reg")
         id = r.json()["id"]
